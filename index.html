@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My City - Patna</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      margin: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #006064;
+      text-shadow: 1px 1px 2px #aaa;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .image-container img {
+      width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 768px) {
+      .image-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Patna - The Heart of Bihar</h1>
+
+  <p>
+    Patna, the capital of Bihar, is one of the oldest inhabited cities in the world. 
+    Situated along the banks of the holy river Ganga, the city is rich in culture, history, and tradition.
+    It has played a vital role in the development of India, from the times of ancient kingdoms to the modern day.
+  </p>
+
+  <div class="image-container">
+    <img src="golghar.jpeg" alt="Golghar - Historical Landmark">
+    <img src="ganga.jpg" alt="Ganga River in Patna">
+    <img src="buddha.webp" alt="Buddha Smriti Park">
+  </div>
+
+  <p>
+    The iconic Golghar, peaceful Ganga Ghats, and spiritual places like Buddha Smriti Park attract thousands of tourists every year. 
+    Patna is not just about heritage; it is also a growing urban center with top educational institutions and infrastructural development.
+  </p>
+
+</body>
+</html>
